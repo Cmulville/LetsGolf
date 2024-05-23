@@ -23,12 +23,10 @@ const TabNavigator = () => {
     
               return <Ionicons name={iconName} size={size} color={color} />;
             },
+            tabBarActiveTintColor: '#90ee90',
+            tabBarInactiveTintColor: '#3a3b3c',
             
           })}
-          tabBarOptions={{
-            activeTintColor: '#90ee90',
-            inactiveTintColor: '#3a3b3c',
-          }}
           >
             <Tab.Screen name="Home" component={HomeScreen} />
             <Tab.Screen name="Golf" component={GolfScreen} />

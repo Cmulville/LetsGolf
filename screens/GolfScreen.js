@@ -6,7 +6,7 @@ const GolfScreen = () => {
   return (
     <View style={styles.container}>
         <ScrollView>
-            <GolfClub/>
+            <GolfClub name='Jindalee' location='jindalee' distance='10.2km' />
         </ScrollView>
     </View>
   );
