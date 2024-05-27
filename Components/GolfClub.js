@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
       height: 120,
       width: Dimensions.get('window').width * 0.95,
       borderRadius: 20,
-      backgroundColor: '#90ee90',
+      backgroundColor: '#b2cfa4',
       padding: 15,
     },
     imageBack: {
