@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
       height: 200,
       width: '100%',
       backgroundColor: '#b2cfa4',
+      marginBottom: 15,
     },
     profile: {
         flexDirection: 'row',
